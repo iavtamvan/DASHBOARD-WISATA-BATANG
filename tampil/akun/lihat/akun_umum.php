@@ -184,6 +184,7 @@ include '../../../koneksi/config.php'
                                 <tbody>
                                 <tr>
                                      <td>'.$no++.'</td>
+                                    <td>'.$d['nama_account'].'</td>
                                     <td>'.$d['email_account'].'</td>
                                     <td>'.$d['no_hp_account'].'</td>
                                     <td>'.$d['nik_account'].'</td>

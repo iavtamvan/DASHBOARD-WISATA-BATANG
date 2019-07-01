@@ -226,7 +226,7 @@ include '../../../koneksi/config.php'
                                             <i class="material-icons">credit_card</i>
                                         </span>
                                             <div class="form-line">
-                                                <input type="text" id="jarak_umkm" name="jarak_umkm" value="<?php echo $data['jarak_umkm']?>" class="form-control date" placeholder="NIK">
+                                                <input type="text" id="jarak_umkm" name="jarak_umkm" value="<?php echo $data['jarak_umkm']?>" class="form-control date" placeholder="NIK"readonly>
                                             </div>
                                         </div>
                                         <p style="color: black;">Lat UMKM</p>
