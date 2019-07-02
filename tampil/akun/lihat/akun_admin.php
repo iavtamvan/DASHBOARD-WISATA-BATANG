@@ -172,7 +172,6 @@ include '../../../koneksi/config.php'
                                     <th>Lat Akun</th>
                                     <th>Long Akun</th>
                                     <th>Username</th>
-                                    <th>Password</th>
                                     <th>Status</th>
                                     <th>Aksi</th>
                                 </tr>
@@ -206,7 +205,6 @@ include '../../../koneksi/config.php'
                                     <td>'.$d['lat_account'].'</td>
                                     <td>'.$d['long_account'].'</td>
                                     <td>'.$d['username'].'</td>
-                                    <td>'.$d['password'].'</td>
                                     <td>'.$d['status_account'].'</td>
                                     <td>
                                     <span>

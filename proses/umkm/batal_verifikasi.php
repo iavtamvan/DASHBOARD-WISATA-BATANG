@@ -14,7 +14,7 @@ $query = mysqli_query($db, "UPDATE wisba_umkm SET status_umkm='Belum Terverifika
 if($query){
     echo ' 
             <script>
-                  alert("Berhasil!");
+                  alert("Berhasil Batal Verifikasi!");
                   window.location = "../../tampil/umkm/lihat/umkm_terverifikasi.php"
             </script>';
 }

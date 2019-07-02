@@ -32,8 +32,7 @@ if ($_POST) {
 ,gambar_1_umkm='$gambar_1_umkm',gambar_2_umkm='$gambar_2_umkm',detail_deskripsi_umkm='$detail_deskripsi_umkm'
 ,like_umkm='$like_umkm',dislike_umkm='$dislike_umkm',kategori_umkm='$kategori_umkm',status_umkm='$status_umkm' WHERE id_umkm='$id_umkm'");
 
-    $query = mysqli_query($db, $sql);
-    if ($query){
+    if ($sql){
         echo '
       <script>
       alert("Berhasil Edit!");
@@ -43,7 +42,7 @@ if ($_POST) {
     } else{
         echo '
       <script>
-      alert("Terverifikasi Edit!");
+      alert("Gagal Edit!");
       window.location = "../../tampil/umkm/lihat/umkm_belum_terverifikasi.php";
       </script>
     ';

@@ -35,8 +35,7 @@ if ($_POST) {
 //,long_keluhan='$long_keluhan' , like_keluhan='$like_keluhan', dislike_keluhan='$dislike_keluhan',
 // status_keluhan='$status_keluhan'WHERE id_keluhan='$id_keluhan'");
 
-    $query = mysqli_query($db, $sql);
-    if ($query){
+    if ($sql){
         echo '
       <script>
       alert("Berhasil Edit!");
@@ -46,7 +45,7 @@ if ($_POST) {
     } else{
         echo '
       <script>
-      alert("Berhasil Edit!");
+      alert("Gagal Edit!");
       window.location = "../../tampil/keluhan/lihat/keluhan_publikasi.php";
       </script>
     ';

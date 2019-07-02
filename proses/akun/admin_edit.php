@@ -35,8 +35,7 @@ email_account= '$email_account',no_hp_account='$no_hp_account', nik_account='$ni
  status_account='$status_account'WHERE id_account='$id_account'");
 
 
-    $query = mysqli_query($db, $sql);
-    if ($query){
+    if ($sql){
         echo '
       <script>
       alert("Berhasil Edit!");
@@ -46,7 +45,7 @@ email_account= '$email_account',no_hp_account='$no_hp_account', nik_account='$ni
     } else{
         echo '
       <script>
-      alert("Berhasil Edit!");
+      alert("Gagal Edit!");
       window.location = "../../tampil/akun/lihat/akun_admin.php";
       </script>
     ';

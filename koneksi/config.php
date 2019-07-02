@@ -1,9 +1,9 @@
 <?php
 
-$server = "localhost";
-$user = "root";
-$password = "";
-$nama_database = "wisba";
+$server = "10.169.250.7";
+$user = "app_iav";
+$password = "kwh2xxbtE0";
+$nama_database = "app_iav";
 
 $db = mysqli_connect($server, $user, $password, $nama_database);
 

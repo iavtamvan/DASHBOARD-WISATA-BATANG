@@ -14,7 +14,7 @@ $query = mysqli_query($db, "UPDATE wisba_keluhan SET status_keluhan='Pending' WH
 if($query){
     echo ' 
             <script>
-                  alert("Berhasil Dibatalkan!");
+                  alert("Berhasil Batal Verfikasi!");
                   window.location = "../../tampil/keluhan/lihat/keluhan_publikasi.php"
             </script>';
 }
